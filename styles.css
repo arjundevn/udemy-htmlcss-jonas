@@ -1,5 +1,6 @@
 .related {
     list-style: none;
+    border: 8px solid green;
 }
 
 li:first-child {
@@ -19,3 +20,4 @@ a:hover {
 a:active {
     background-color: black;
 }
+
