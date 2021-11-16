@@ -1,3 +1,5 @@
+
+
 .related {
     list-style: none;
     border: 8px solid green;
@@ -8,8 +10,8 @@ li:first-child {
 }
 
 a:link{
-    background-color: rgba(255,255,25,.3);
-    text-decoration: none
+    background-color: yellow;
+    text-decoration: none;
 }
 
 a:hover {
@@ -24,9 +26,17 @@ a:active {
 .code-img {
     width:100%;
     height:auto;
+    position: relative;
 }
 
 body {
     width:700px;
     margin: 0 auto;
+    /* position: relative; */
+}
+
+.like {
+    position: absolute;
+    top:0;
+    right:0;
 }
