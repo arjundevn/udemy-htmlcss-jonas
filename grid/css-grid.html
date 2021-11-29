@@ -14,7 +14,9 @@
       }
       .el--3 {
         background-color: green;
-        /* height: 150px; */
+        height: 150px;
+        grid-column: 2 / 
+        
       }
       .el--4 {
         background-color: goldenrod;
@@ -41,11 +43,12 @@
 
         /* CSS GRID */
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        /* grid-template-rows: 100px 200px 100px 20px; */
-        row-gap: 30px ;
-        
-        
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 100px 200px 100px 20px;
+        row-gap: 20px ;
+        column-gap: 20px;
+        display: none;
+
       }
 
       .container--2 {
@@ -55,10 +58,15 @@
         font-size: 40px;
         margin: 100px;
         width: 1000px;
-        height: 600px;
-        display: none;
+        height: 500px; 
+        /* display: none;
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 10px;
+        
       }
     </style>
   </head>
@@ -76,6 +84,7 @@
 
     <div class="container--2">
       <div class="el el--1">(1)</div>
+      <div class="el el--2">(2)</div>
       <div class="el el--3">(3)</div>
       <div class="el el--4">(4)</div>
       <div class="el el--5">(5)</div>
