@@ -11,6 +11,7 @@ body {
 
   border-top: 10px solid #1098ad;
   position: relative;
+  width: 1200px;
 }
 
 .container {
@@ -86,11 +87,11 @@ p {
   margin-bottom: 15px;
 }
 
-/* ul,
+ul,
 ol {
   margin-left: 50px;
   margin-bottom: 20px;
-} */
+}
 
 /* li {
   font-size: 20px;
@@ -325,13 +326,16 @@ aside {
 .aside-container {
   padding-left: 0;
   display: grid;
+  row-gap: 20px;
 }
 
-.ref1 {
+.ref1,.ref2, .ref3 {
   display: grid;
   grid-template-columns: 0.2fr 1fr;
+  
 }
 
-.des1 {
 
+aside h4 {
+  margin-bottom: 10px;
 }
